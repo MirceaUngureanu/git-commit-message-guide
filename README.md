@@ -1,9 +1,7 @@
 # 📝Writing good commit messages
 
-This is my take on writing good commit messages.
-
 ## Benefits
-- A better understanding of the changes being made
+- A better understanding of the changes made
 - Automation of logs
 - Quicker navigation through git history (e.g. search for all commits with a type of docs)
 
@@ -22,7 +20,7 @@ This is my take on writing good commit messages.
 
 ## Commit message breakdown
 Notes:<br />
-`(scope)` - optional scope will be within parenthesis<br />
+`(scope)` - optional scope will be within parentheses<br />
 `!` - optional breaking change flag<br />
 `BREAKING CHANGE:` - optional breaking change footer
 
@@ -81,10 +79,10 @@ Resolves: #123
 \** WIP should only be used in exceptional cases and **never on the master branch**.
 
 ### Notes
-- Style type was removed as it can cause confusion e.g. some might think it's to do with improving the readability of the code while some might think it's to do with UI style changes if working mainly in front-end 
+- The `style` type was removed because it can cause confusion e.g. some might think it's to do with improving the readability of the code while some might think it's to do with UI style changes if working mainly in front-end 
 - The `chore` type was replaces by `other` which is less negative and more versatile
 
 ### Disclaimer
-This guide is mainly based on [Angular commit convention](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit) and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), along with a dozen or so articles on the matter. I've tried to capture their essence without overloading this guide with too much detail. This is meant to server as a starting point for better commits and consistency.<br />
+This guide is based on [Angular commit convention](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit) and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), along with a dozen or so articles on the matter. I've tried to capture their essence without overloading this guide with too much detail. This is meant to server as a starting point for better commits and consistency.<br />
 Each team is unique and should agree on a common convention that works for them. 
 
