@@ -1,12 +1,12 @@
 # 📝Good commit messages
 
 Git commit messages, when done right, can have a big return on investment over the long run. This is my collection of best practices I use on a daily basis.
-## Benefits
+## Benefits💪
 - A better understanding of the changes made
 - Automation of logs
 - Quicker navigation through git history (e.g. search for all commits with a type of docs)
 
-## Rules for good messages
+## Rules for a good message‍✅
 - Limit subject line and wrap the body lines at 72 characters
 - Do not end subject with a period
 - Use the imperative mood in the subject line (as if giving a command or instruction e.g. "update header content")
@@ -19,7 +19,7 @@ Git commit messages, when done right, can have a big return on investment over t
 - Remove unnecessary punctuation marks
 - Follow the commit convention defined by your team
 
-## Commit message breakdown
+## Commit message breakdown🧰
 Notes:<br />
 `(scope)` - optional scope will be within parentheses<br />
 `!` - optional breaking change flag<br />
@@ -59,7 +59,7 @@ More detailed explanation.
 BREAKING CHANGE: Introduction of gulp.series and gulp.parallel.
 Resolves: #123 
 ```
-### Commit types
+## Commit types🗂
 
 | Type       | Description                                                                  | Emoji* |
 |------------|------------------------------------------------------------------------------|:------:|
@@ -74,11 +74,12 @@ Resolves: #123
 | `other`    | Miscellaneous changes unrelated to production code (syntax formatting, package manager changes etc) |🧰      |
 | `revert`   | Revert commit/s                                                           |⏪      |
 | `WIP`      | Work in progress**      |🚧      |
+
 \* Optional, sometimes they don't render well in all terminals.<br />
 \** Only use in exceptional cases and **never on the master branch**.
 
 ### Notes
 - Removed `style` type as it can be confusing. Some might think it's related to code readability, while some might think it's to do with UI style changes
 - Replaced the `chore` type with `other` type which is less negative and more versatile
-### References
+## References👨‍🏫
 I based this guide on [Angular commit convention](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit) and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), along with a dozen or so articles on the matter.
