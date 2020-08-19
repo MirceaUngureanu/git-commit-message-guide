@@ -1,7 +1,8 @@
 # 📝Write good commit messages
 
+Git commit messages, when done right, can have a big return on investment over the long run. This is my collection of best practices I use on a daily basis.
 ## Benefits
-- Better understanding of the changes made
+- A better understanding of the changes made
 - Automation of logs
 - Quicker navigation through git history (e.g. search for all commits with a type of docs)
 
@@ -25,7 +26,7 @@ Notes:<br />
 `BREAKING CHANGE:` - optional breaking change footer
 
 ### With body
-Only for non breaking changes.
+Only for non-breaking changes.
 
 Template:<br />
 ```
@@ -39,7 +40,7 @@ feat(proxy): Add temporary redirect for About Page
 feat: Add temporary redirect for About Page
 ```
 ### Commit message with body
-If commit has breaking changes they need to be included in the breaking change footer.
+If the commit has breaking changes include them in the breaking change footer.
 
 Template:
 ```
@@ -58,7 +59,6 @@ More detailed explanation.
 BREAKING CHANGE: Introduction of gulp.series and gulp.parallel.
 Resolves: #123 
 ```
-
 ### Commit types
 
 | Type       | Description                                                                  | Emoji* |
@@ -71,16 +71,14 @@ Resolves: #123
 | `build`    | Changes to the build system (updating/adding build tasks, etc)      |📦      |
 | `ci`       | Changes to CI configuration files and scripts                                |⚙       |
 | `docs`     | Documentation                                                                |📚      |
-| `other`    | Changes not listed above and that are not production code changes (white-space, formatting, missing semi-colons, package manager changes etc) |🧰      |
+| `other`    | Miscellaneous changes unrelated to production code (syntax formatting, package manager changes etc) |🧰      |
 | `revert`   | Revert commit/s                                                           |⏪      |
 | `WIP`      | Work in progress**      |🚧      |
-
-\* Using emojis to represent commit types is optional, keep in mind that sometimes they might not render well in all terminals.<br />
-\** Only use WIP in exceptional cases and **never on the master branch**.
+\* Optional, sometimes they don't render well in all terminals.<br />
+\** Only use in exceptional cases and **never on the master branch**.
 
 ### Notes
-- Removed the `style` type because it can cause confusion e.g. some might think it's to do with improving the readability of the code while some might think it's to do with UI style changes if working mainly in front-end 
+- Removed `style` type as it can be confusing. Some might think it's related to code readability, while some might think it's to do with UI style changes
 - Replaced the `chore` type with `other` type which is less negative and more versatile
-
 ### References
-I based this guide on [Angular commit convention](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit) and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), along with a dozen or so articles on the matter. I've tried to capture their essence without overloading this guide with too much detail.
+I based this guide on [Angular commit convention](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit) and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), along with a dozen or so articles on the matter.
