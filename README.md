@@ -1,4 +1,4 @@
-# 📝Write good commit messages
+# 📝Good commit messages
 
 Git commit messages, when done right, can have a big return on investment over the long run. This is my collection of best practices I use on a daily basis.
 ## Benefits
