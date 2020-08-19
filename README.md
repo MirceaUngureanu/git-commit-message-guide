@@ -25,7 +25,8 @@ Notes:<br />
 `!` - optional breaking change flag<br />
 `BREAKING CHANGE:` - optional breaking change footer
 
-### Without body - only for non-breaking changes
+### Without body
+Only use for easy to understand and non-breaking changes.
 
 Template:<br />
 ```
