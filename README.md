@@ -25,8 +25,7 @@ Notes:<br />
 `!` - optional breaking change flag<br />
 `BREAKING CHANGE:` - optional breaking change footer
 
-### With body
-Only for non-breaking changes.
+### Without body - only for non-breaking changes
 
 Template:<br />
 ```
@@ -39,8 +38,8 @@ feat(proxy): Add temporary redirect for About Page
 ```
 feat: Add temporary redirect for About Page
 ```
-### Commit message with body
-If the commit has breaking changes include them in the breaking change footer.
+### With body
+If the commit has breaking changes include them in the `BREAKING CHANGE` footer.
 
 Template:
 ```
